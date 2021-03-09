@@ -1,0 +1,20 @@
+<form #f="ngForm">
+    <!-- <mat-form-field>
+        <mat-label>name</mat-label>
+        <input matInput ngModel name='name' type="text"  required>
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+        <mat-label>email</mat-label>
+        <input matInput ngModel name='email' type="email" placeholder='email' required>
+    </mat-form-field> -->
+    <mat-form-field>
+        <input matInput ngModel name='name' type="text" placeholder='name' required>
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+        <input matInput ngModel name='email' type="email" placeholder='email' required>
+    </mat-form-field>
+    <br>
+    <button mat-raised-button color="primary" [disabled]='f.form.invalid' [routerLink]="['/calculator']">send</button>
+</form>

@@ -1,0 +1,25 @@
+<button mat-raised-button [routerLink]="['/home']">back to home</button>
+<br>
+<mat-form-field>
+    <input matInput [(ngModel)]="exp" (keyup.enter)='calc()' autofocus>
+</mat-form-field>
+<br>
+<div class='btn-list'>
+    <button mat-raised-button *ngFor='let x of btnNumberList' (click)='add(x)'>{{x}}</button>
+</div>
+<br>
+
+<button class="operators-btn" mat-raised-button *ngFor='let x of operatorsList' (click)='add(x)'>{{x}}</button>
+<button mat-raised-button (click)='add(".")'>.</button>
+<button mat-raised-button (click)='remove()'><-</button>
+<button mat-raised-button (click)='clear()'>C</button>
+<button mat-raised-button (click)='calc()'>=</button>
+
+<mat-accordion>   
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>history</mat-panel-title>
+      </mat-expansion-panel-header>
+      <p *ngFor='let x of history'>{{x}}</p>
+    </mat-expansion-panel>
+</mat-accordion>

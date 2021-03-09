@@ -1,0 +1,28 @@
+:host {
+    width: 300px;
+    display: block;
+    text-align: center;
+    border: solid 1px;
+    padding: 10px;
+    background: lightgray;
+
+}
+
+mat-form-field {
+    width: 223px;
+    margin: 20px 0;
+    border: solid 1px;
+    background: white;
+}
+
+.btn-list {
+    width: 285px;    
+}
+
+button{
+    margin: 5px;   
+}
+
+input {
+    padding: 0 5px;
+}

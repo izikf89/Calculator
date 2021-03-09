@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AteraMission", "AteraMission\AteraMission.csproj", "{CF535BB3-7C6C-460E-9325-DDEFE28ACF68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AteraMissionTests", "AteraMissionTests\AteraMissionTests.csproj", "{0EA6CC80-2C95-466C-83A9-6EB44C294DCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF535BB3-7C6C-460E-9325-DDEFE28ACF68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF535BB3-7C6C-460E-9325-DDEFE28ACF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF535BB3-7C6C-460E-9325-DDEFE28ACF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF535BB3-7C6C-460E-9325-DDEFE28ACF68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EA6CC80-2C95-466C-83A9-6EB44C294DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EA6CC80-2C95-466C-83A9-6EB44C294DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EA6CC80-2C95-466C-83A9-6EB44C294DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EA6CC80-2C95-466C-83A9-6EB44C294DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7D60156-E23C-4D73-8F2C-49C1865C3C8A}
+	EndGlobalSection
+EndGlobal
